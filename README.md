@@ -4,6 +4,6 @@
 Another day, another branch.
 
 Foo foo bar.
-simple edit
+simple edit (or is it?)
 
 a fast-forwardable edit
