@@ -1,6 +1,7 @@
 name: Foo workflow
 on:
-  pull_request
+  pull_request:
+    types: [opened, synchronized, reopened, labeled, unlabeled]
 
 jobs:
   qux:
