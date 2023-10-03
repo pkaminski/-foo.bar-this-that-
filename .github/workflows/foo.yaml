@@ -1,0 +1,10 @@
+name: Foo workflow
+on:
+  pull_request
+
+jobs:
+  qux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: approve
+        run: echo "A-OK"
